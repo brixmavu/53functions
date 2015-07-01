@@ -1,11 +1,10 @@
-QUnit.test( 'hello World!', function( assert ) {
-  assert.ok( helloWorld(), "hello world!" );
+var hello = require("./hello.js");
+
+test( 'hello World!', function( assert ) {
+  equal("hello world!", hello.helloWorld(), "We expect value to be hello");
 });
 
-QUnit.test( 'hello_uppercase', function( assert ) {
-  assert.ok( hello_uppercase("brix"), "Hello, BRIX!" );
-});
-
+/*
 QUnit.test( 'hello_joe', function( assert ) {
   assert.ok( hello_joe("Joe"), "Hello!" );
   assert.ok( hello_joe("Bob"), "Hello!" );
@@ -19,3 +18,5 @@ QUnit.test( 'number_list', function( assert ) {
 QUnit.test( 'sum_numbers', function( assert ) {
   assert.ok( sum_numbers(10), 55 );
 });
+
+*/

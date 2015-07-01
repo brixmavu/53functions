@@ -1,0 +1,7 @@
+exports.hello_uppercase(username) = function {
+	return "Hello, " + username.toUpperCase() +"!";
+};
+
+
+
+

@@ -1,4 +1,4 @@
-function number_list(n){
+exports.number_list = function(n){
 	var j = [];
 	for (var i = 1; i <= n; i++) {
 		console.log(i);
@@ -6,3 +6,4 @@ function number_list(n){
 	}
 	return j;
 };
+
