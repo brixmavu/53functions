@@ -1,4 +1,4 @@
-exports.hello_uppercase = function(username){
+function hello_uppercase(username){
 	return "Hello, " + username.toUpperCase() +"!";
 };
 

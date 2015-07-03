@@ -1,3 +1,3 @@
-exports.helloWorld = function() {
+function helloWorld() {
 	return "hello world!";
 } 
