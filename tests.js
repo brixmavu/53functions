@@ -40,3 +40,15 @@ QUnit.test( 'high_low', function( assert ) {
     /* min/max number in an array */
   assert.deepEqual( high_low([5, 6, 2, 3, 7]),"max =7,min =2");
 });
+
+QUnit.test( 'count_words', function( assert ) {
+  assert.equal( count_words("hello world"), 2 );
+});
+
+QUnit.test( 'sum_word_len', function( assert ) {
+  assert.equal( sum_word_len("hello world"), 10);
+});
+
+QUnit.test( 'longest_word', function( assert ) {
+  assert.equal( longest_word('Web Development Tutorial'), "Development:11" );
+});

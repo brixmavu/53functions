@@ -1,0 +1,8 @@
+function sum_word_len(sentence) { 
+		var sum 0
+		var count = sent.split("");
+		for (var i = 0; i < sentence.length; i++) {
+			sum += count[i].split("").length;
+			}
+			return sum;
+    }  
