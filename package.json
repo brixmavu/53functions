@@ -16,6 +16,8 @@
     "url": "https://github.com/brixmavu/53functions/issues"
   },
   "dependencies": {
-    "qunit": "~0.7.6"
+    "qunit": "~0.7.6",
+    "gulp": "~3.9.0",
+    "gulp-qunit": "~1.2.1"
   }
 }
