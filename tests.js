@@ -52,3 +52,7 @@ QUnit.test( 'sum_word_len', function( assert ) {
 QUnit.test( 'longest_word', function( assert ) {
   assert.equal( longest_word('Web Development Tutorial'), "Development:11" );
 });
+
+QUnit.test( 'shortest_word', function( assert ) {
+  assert.equal( shortest_word('Web Development Tutorial'), "Web:3" );
+});
