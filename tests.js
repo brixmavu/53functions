@@ -58,5 +58,5 @@ QUnit.test( 'shortest_word', function( assert ) {
 });
 
 QUnit.test('word_length', function(assert) {
-  assert.equal( word_length('average of words round up and down').toString(), [1,1].toString());
+  assert.equal( word_length('average of words round up and down').toString(), [4,4].toString());
 });
