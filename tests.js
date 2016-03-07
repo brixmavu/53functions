@@ -33,7 +33,7 @@ QUnit.test( 'reverse', function( assert ) {
 });
 
 QUnit.test( 'hello_list', function( assert ) {
-  assert.equal( hello_list(3), "hello world,hello world,hello world" );
+  assert.equal( hello_list(3), "hello world", "hello world", "hello world" );
 });
 
 QUnit.test( 'high_low', function( assert ) {
